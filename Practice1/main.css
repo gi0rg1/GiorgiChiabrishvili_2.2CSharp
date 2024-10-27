@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+p{
+    color: lawngreen
+}
+
+h1 {
+    color: lawngreen
+}
+
+div {
+    padding:50px;
+    width:400px;
+    height:700px;
+    background: linear-gradient(150deg, #4d0aae,#e83e10);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+
+#pfp {
+    width: 320px;
+    height: 320px
+}
+
+#btn {
+    font-size: 20px;
+    color: lawngreen
+}
