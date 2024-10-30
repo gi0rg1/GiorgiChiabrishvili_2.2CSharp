@@ -1,12 +1,15 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
     font-family: cursive;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(29, 27, 27)
 }
 
-p{
-    color: lawngreen
+p {
+    color: lawngreen;
+    height: 28px
 }
 
 h1 {
@@ -14,9 +17,9 @@ h1 {
 }
 
 div {
-    padding:50px;
-    width:400px;
-    height:700px;
+    padding: 50px;
+    width: 400px;
+    height: 700px;
     background: linear-gradient(150deg, #4d0aae,#e83e10);
     box-shadow: 0 15px 35px rgba(0,0,0,0.2);
     border-radius: 20px;
@@ -29,5 +32,19 @@ div {
 
 #btn {
     font-size: 20px;
-    color: lawngreen
+    color: lawngreen;
+    background-color: white;
+    border-radius: 10px;
+    margin: 50px;
+    text-decoration: none;
+    height: 28px
+}
+
+#languages {
+    width: 650pxpx;
+    height: 350px
+}
+
+#page2title {
+    height: 28px
 }
