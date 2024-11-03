@@ -40,6 +40,13 @@ body {
     border: solid 5px white;
 }
 
+#minititle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
 #profiles {
     display: flex;
     justify-content: center;
@@ -48,6 +55,33 @@ body {
 }
 
 #profiles div {
-    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    padding: 40px;
+    background-color: #F4F4F4;
+}
 
+#profiles div p{
+    padding: 40px;
+}
+
+ul {
+    background-color: #292929;
+    height: 40px;    
+}
+li {
+    display: inline;
+    float: left;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    text-decoration: none;
+    height: 24px;
 }
