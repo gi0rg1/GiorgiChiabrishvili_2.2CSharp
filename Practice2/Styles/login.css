@@ -1,27 +1,86 @@
 body {
-
+    overflow: hidden;
+}
+.main {
+    display: flex;
+    flex-direction: row;
 }
 
-#info {
+.info {
     width: 55%;
     height: fit-content;
     display: flex;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
+    padding: 100px 0 0 200px
 }
 
-#lorem {
-    width: 400px
+
+.lorem {
+    width: 400px;
+    margin-top: 40px;
+    font-size: 20px
 }
 
-#right {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    float: right;
+.info p {
+    color: grey
+}
+
+.info h1 {
+    margin-top: 10px;
+    font-size: 65px
+}
+
+.right {
     width: 45%;
-    height: 86vh;
+    height: 96vh;
     background-color: #555555;
+}
+
+.text {
+    margin-top: 100px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    float: left;
+    padding: 0 200px 0 200px;
+}
+
+.right p {
+    color: #EE654B;
+    float: left
+}
+
+.right h1 {
+    color: #ffffff;
+    font-size: 40px;
+    padding: 10px
+}
+
+.right input {
+    margin: 10px;
+    width: 424px;
+    height: 40px;
+    padding: 10px
+}
+
+.right input::placeholder{
+    display:flex;
+    float: left;
+}
+
+#message {
+    height: 100px;
+}
+
+.btn {
+    height: 50px;
+    width: 150px;
+    margin: 0 150px 0 150px;
+    background-color: #EE654B;
+    color: #ffffff;
+    border-color: transparent;
+    filter: drop-shadow(#EE654B 5px 5px 10px)
 }
 
 ul {

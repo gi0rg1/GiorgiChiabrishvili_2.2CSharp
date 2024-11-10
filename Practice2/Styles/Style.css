@@ -2,9 +2,10 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    overflow: hidden;
 }
 
-#bgcontainer {
+.bgcontainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,25 +13,42 @@ body {
     padding: 60px;
     background-image: url('../Images/bg.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
-#title {
+.title {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:30px;
+    padding: 20px
 }
 
-#email {
+.title h1 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 10px
+}
+.title p {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 10px
+}
+
+.email {
     height: 30px;
     width: 300px;
     background-color: transparent;
     border-radius: 20px;
-    border: solid 1px white;
+    border: solid 2px white;
 }
 
-#btn {
+.email::placeholder {
+    color: #ffffff;
+    padding: 10px
+}
+
+.btn {
     margin: 20px;
     height: 30px;
     width: 100px;
@@ -40,31 +58,48 @@ body {
     border: solid 5px white;
 }
 
-#minititle {
+.minititle {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 40px;
 }
 
-#profiles {
+.minititle p {
+    color: grey;
+    margin-bottom: 10px
+}
+
+.minititle h1 {
+    font-size: 30px;
+    margin-bottom: 5px
+}
+
+.profiles {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: row;
-    padding: 50px
 }
 
-#profiles div {
+.profiles div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 40px;
+    margin: 0 100px 0 100px;
     padding: 40px;
+    padding-bottom: 20px;
     background-color: #F4F4F4;
+    width: 250px;
 }
 
-#profiles div p{
-    padding: 40px;
+.profiles div img {
+    padding: 30px
+}
+
+.name {
+    color: #465FF9;
+    padding: 20px
 }
 
 ul {
