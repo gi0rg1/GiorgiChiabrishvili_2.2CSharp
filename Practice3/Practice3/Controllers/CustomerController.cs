@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Configuration;
 
 namespace Practice3.Controllers
 {
     public class CustomerController : Controller
     {
+        private readonly string connectionString = "Data Source=DESKTOP-AIFFBA0\\SQLEXPRESS;Initial Catalog=Orders;Integrated Security=True;Trust Server Certificate=True";
         // GET: CustomerController
         public ActionResult Index()
         {
